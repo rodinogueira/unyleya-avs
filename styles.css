@@ -1,0 +1,11 @@
+.quantity-input {
+    -moz-appearance: textfield; /* Firefox */
+  }
+  
+  /* Para remover os spinners em navegadores WebKit (Chrome, Safari) */
+  .quantity-input::-webkit-outer-spin-button,
+  .quantity-input::-webkit-inner-spin-button {
+    -webkit-appearance: none; /* Remove os spinners */
+    margin: 0; /* Remove margens */
+  }
+  
