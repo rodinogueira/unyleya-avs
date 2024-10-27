@@ -1,0 +1,86 @@
+/* Estilos para o cabeçalho */
+header nav ul {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+main h1 {
+    font-size: 2.5em;
+    color: #007bff; /* Cor personalizada para o título */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os produtos na coluna */
+}
+
+.product-item {
+    max-width: 400px; /* Largura máxima para cada item */
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #f1f1f1; /* Cor de fundo dos itens */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100px; /* Tamanho fixo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.product-title {
+    font-size: 1.5em;
+    color: #333; /* Cor do título do produto */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+footer ul li a i {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+footer ul li a p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}

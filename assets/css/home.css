@@ -1,0 +1,106 @@
+/* Estilos para o cabeçalho */
+header nav ul {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul li {
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Estilo para o conteúdo principal */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+main h1 {
+    font-size: 2.5em;
+    color: #007bff; /* Cor personalizada para o nome da empresa */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main section {
+    margin: 20px 0;
+}
+
+main section div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main section div label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+main section div input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+main section div button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+main section div button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    text-align: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #555;
+}
+
+footer ul li a i {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+footer ul li a p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}

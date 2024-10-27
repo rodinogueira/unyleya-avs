@@ -1,0 +1,137 @@
+/* Resetando estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Para um dimensionamento consistente */
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    line-height: 1.6; /* Melhora a legibilidade */
+    background-color: #f4f4f4; /* Cor de fundo suave */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #007bff; /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto do cabeçalho */
+    padding: 10px 20px; /* Preenchimento */
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between; /* Espaça o título e os links */
+    align-items: center; /* Alinha itens verticalmente */
+}
+
+header h1 {
+    margin: 0; /* Remove margens do título */
+}
+
+nav ul {
+    list-style: none; /* Remove marcadores de lista */
+    padding: 0; /* Remove preenchimento */
+    display: flex; /* Exibe itens em linha */
+}
+
+nav ul li {
+    margin-left: 20px; /* Espaçamento entre os itens */
+}
+
+nav a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Sublinha ao passar o mouse */
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 20px; /* Preenchimento do conteúdo principal */
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #007bff; /* Cor de fundo do rodapé */
+    color: white; /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza texto */
+    padding: 10px 0; /* Preenchimento superior e inferior */
+    position: relative; /* Posiciona o rodapé */
+    bottom: 0; /* Fixa na parte inferior */
+    width: 100%; /* Largura completa */
+}
+
+/* Botões padrão */
+button {
+    border: none; /* Remove borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+/* Estilos de formulários */
+input[type="number"] {
+    text-align: center; /* Centraliza texto nos campos numéricos */
+}
+
+/* Estilos para produtos */
+.product-list {
+    display: grid; /* Cria um layout de grade */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Colunas responsivas */
+    gap: 20px; /* Espaçamento entre itens */
+}
+
+.product-item {
+    background: white; /* Fundo branco para produtos */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 15px; /* Preenchimento interno */
+    text-align: center; /* Centraliza texto */
+}
+
+.product-item img {
+    max-width: 100%; /* Imagem responsiva */
+    height: auto; /* Mantém a proporção */
+}
+
+/* Estilos do botão "Adicionar ao Carrinho" */
+.add-to-cart {
+    background-color: #28a745; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 15px; /* Preenchimento */
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Cor ao passar o mouse */
+}
+
+/* Estilos de preço */
+.product-prices {
+    margin: 15px 0; /* Margem superior e inferior */
+}
+
+.price-info {
+    display: flex; /* Flex para informações de preço */
+    justify-content: space-between; /* Espaça os itens */
+}
+
+/* Estilos para incrementar e decrementar */
+.quantity-wrapper {
+    display: flex; /* Flex para botões de quantidade */
+    align-items: center; /* Alinha verticalmente */
+}
+
+.decrement,
+.increment {
+    background-color: #007bff; /* Cor dos botões */
+    color: white; /* Cor do texto dos botões */
+    padding: 5px 10px; /* Preenchimento */
+}
+
+.decrement:hover,
+.increment:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
